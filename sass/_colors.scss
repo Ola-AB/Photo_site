@@ -1,0 +1,54 @@
+$main-color: #7C8C03;
+$secondary-color: #098C03;
+$pure-white: #fff;
+$light-white: #BFB699;
+$dark: #2e2e2e;
+$green-color: #594B02;
+$brown-color-hover: #594B02;
+
+/* Color Theme Swatches in Hex */
+// .UI/UX-1-hex { color: #7C8C03; }
+// .UI/UX-2-hex { color: #594B02; }
+// .UI/UX-3-hex { color: #BF9F3F; }
+// .UI/UX-4-hex { color: #BFB699; }
+// .UI/UX-5-hex { color: #594022; }
+
+// /* Color Theme Swatches in RGBA */
+// .UI/UX-1-rgba { color: rgba(124, 140, 2, 1); }
+// .UI/UX-2-rgba { color: rgba(89, 74, 1, 1); }
+// .UI/UX-3-rgba { color: rgba(191, 159, 63, 1); }
+// .UI/UX-4-rgba { color: rgba(191, 181, 153, 1); }
+// .UI/UX-5-rgba { color: rgba(89, 64, 33, 1); }
+
+// /* Color Theme Swatches in HSLA */
+// .UI/UX-1-hsla { color: hsla(67, 96, 28, 1); }
+// .UI/UX-2-hsla { color: hsla(50, 96, 17, 1); }
+// .UI/UX-3-hsla { color: hsla(45, 50, 49, 1); }
+// .UI/UX-4-hsla { color: hsla(44, 23, 67, 1); }
+// .UI/UX-5-hsla { color: hsla(33, 44, 24, 1); }
+
+
+$light-blue-gradient: linear-gradient(
+	45deg,
+	rgba(8, 206, 255, 0.75),
+	rgba(8, 24, 255, 0.75)
+);
+
+
+$mustard-purple: linear-gradient(45deg,rgba(62, 47, 91, 0.75), rgba(255, 200, 87, 0.75)
+);
+$purple-gradient: linear-gradient(
+	45deg,
+	rgba(190, 10, 214, 0.75),
+	rgba(68, 0, 255, 0.75)
+);
+$blue-gradient-solid: linear-gradient(
+	45deg,
+	rgb(20, 105, 241),
+	rgb(42, 10, 184)
+);
+$light-blue-gradient-solid: radial-gradient(
+	circle at top right,
+	#3E2F5B
+rgb(255, 200, 87)
+);
