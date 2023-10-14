@@ -28,19 +28,27 @@ $brown-color-hover: #594B02;
 // .UI/UX-5-hsla { color: hsla(33, 44, 24, 1); }
 
 
-$light-blue-gradient: linear-gradient(
-	45deg,
-	rgba(8, 206, 255, 0.75),
-	rgba(8, 24, 255, 0.75)
-);
+
 
 
 $mustard-purple: linear-gradient(45deg,rgba(62, 47, 91, 0.75), rgba(255, 200, 87, 0.75)
 );
+
+$blue-gradient: linear-gradient(
+	45deg,
+	rgba(20, 105, 241, 0.75),
+	rgba(42, 10, 184, 0.75)
+);
+
 $purple-gradient: linear-gradient(
 	45deg,
 	rgba(190, 10, 214, 0.75),
 	rgba(68, 0, 255, 0.75)
+);
+$light-blue-gradient: linear-gradient(
+	45deg,
+	rgba(8, 206, 255, 0.75),
+	rgba(8, 24, 255, 0.75)
 );
 $blue-gradient-solid: linear-gradient(
 	45deg,
