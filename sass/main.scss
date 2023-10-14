@@ -71,6 +71,45 @@ body {
 	}
 }
 
+// NAV
+
+.nav {
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-image: $mustard-purple-solid;
+	z-index: 100;
+
+	&__item {
+		position: relative;
+		display: block;
+		margin: 0.5em 0em;
+		padding: 0.5em 2em;
+		font-size: 2.8rem;
+		color: $pure-white;
+		text-decoration: none;
+
+		&::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 3px;
+			height: 100%;
+			transform: scaleY(0);
+			background-color: $pure-white;
+			content: "";
+		}
+
+		&:hover::before {
+			transform: scaleY(1);
+		}
+	}
+}
+
 // HEADER
 .header {
 	position: relative;
@@ -140,7 +179,7 @@ body {
 	}
 
 	.header {
-		background-image: $mustard-purple, url('../img/header_1920.jpg');
+		background-image: $mustard-purple, url("../img/header_1920.jpg");
 
 		&__heading {
 			font-size: 10rem;
