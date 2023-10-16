@@ -1,9 +1,9 @@
 $main-color: #7c8c03;
-$secondary-color: #098c03;
+$green-color: #098c03;
 $pure-white: #fff;
 $light-white: #bfb699;
 $dark: #2e2e2e;
-$green-color: #594b02;
+$secondary-color: #594b02;
 $brown-color-hover: #594b02;
 
 /* Color Theme Swatches in Hex */
@@ -27,23 +27,32 @@ $brown-color-hover: #594b02;
 // .UI/UX-4-hsla { color: hsla(44, 23, 67, 1); }
 // .UI/UX-5-hsla { color: hsla(33, 44, 24, 1); }
 
-$mustard-purple: linear-gradient(45deg, rgba(62, 47, 91, 0.68), rgba(255, 200, 87, 0.68));
+$mustard-purple: linear-gradient(
+	45deg,
+	rgba(62, 47, 91, 0.68),
+	rgba(255, 200, 87, 0.68)
+);
 $mustard-purple-solid: linear-gradient(
 	45deg,
 	rgba(62, 47, 91),
 	rgba(255, 200, 87)
 );
-
-$blue-gradient: linear-gradient(
+$light-purple-gradient: linear-gradient(
 	45deg,
-	rgba(20, 105, 241, 0.75),
-	rgba(42, 10, 184, 0.75)
+	rgb(175, 158, 211, 0.68),
+	rgba(255, 200, 87, 0.68)
+);
+$light-orange-gradient: linear-gradient(
+	45deg,
+	rgba(155, 119, 233, 0.68),
+	rgba(255, 200, 87, 0.68)
 );
 
-$purple-gradient: linear-gradient(
+
+$brown-gradient-solid: linear-gradient(
 	45deg,
-	rgba(190, 10, 214, 0.75),
-	rgba(68, 0, 255, 0.75)
+	rgb(211, 184, 140),
+	rgb(35, 9, 3)
 );
 $light-blue-gradient: linear-gradient(
 	45deg,
@@ -54,8 +63,4 @@ $blue-gradient-solid: linear-gradient(
 	45deg,
 	rgb(20, 105, 241),
 	rgb(42, 10, 184)
-);
-$light-blue-gradient-solid: radial-gradient(
-	circle at top right,
-	#3e2f5b rgb(255, 200, 87)
 );
