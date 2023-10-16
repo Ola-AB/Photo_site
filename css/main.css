@@ -43,6 +43,37 @@
   left: 130%;
 }
 
+.section-heading {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #7c8c03;
+  letter-spacing: 2px;
+}
+
+.section-padding {
+  padding: 6em 2em;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    font-size: 3.6rem;
+  }
+  .section-padding {
+    padding: 8em 2em;
+  }
+}
+@media (min-width: 992px) {
+  .section-padding {
+    font-size: 4.8rem;
+  }
+  .section-padding {
+    padding: 10em 2em;
+  }
+}
 *,
 *::before,
 *::after {
@@ -167,7 +198,7 @@ body {
   height: 75vh;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(45deg, rgb(62, 47, 91), rgb(255, 200, 87)), url("../img/header_640.jpg");
+  background-image: linear-gradient(45deg, rgb(62, 47, 91), rgb(255, 200, 87)), url("../img/header_640");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -197,6 +228,44 @@ body {
   background-color: #bfb699;
 }
 
+.photobook__box {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+.photobook__img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.photobook__title {
+  margin-bottom: 0.5em;
+}
+.photobook__text {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 576px) {
+  .photobook__box {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .photobook__box-text {
+    width: 55%;
+  }
+  .photobook__box-text--right {
+    text-align: right;
+  }
+  .photobook__box-img {
+    width: 40%;
+  }
+  .photobook__box-img--right {
+    order: 1;
+  }
+  .photobook__img {
+    margin-bottom: 0;
+    max-height: 300px;
+  }
+}
 @media (min-width: 768px) {
   .white-block {
     height: 50px;
@@ -211,6 +280,9 @@ body {
   .header__btn {
     font-size: 1.6rem;
   }
+  .photobook {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 992px) {
   .burger-btn {
@@ -222,5 +294,23 @@ body {
   }
   .header__heading {
     font-size: 10rem;
+  }
+  .nav__item {
+    font-size: 4.8rem;
+  }
+  .photobook__box {
+    margin: 5em 0;
+  }
+  .photobook__box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 2.5em;
+  }
+  .photobook__title {
+    font-size: 3.6rem;
+  }
+  .photobook__text {
+    font-size: 2.2rem;
   }
 }/*# sourceMappingURL=main.css.map */
