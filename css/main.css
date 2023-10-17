@@ -284,6 +284,7 @@ body {
 .offers__card-img {
   padding: 2em;
   height: 100%;
+  width: 100%;
   border-radius: 8px;
   background-size: cover;
   transition: transform 1s, opacity 1s;
@@ -416,6 +417,7 @@ body {
   .offers__card {
     margin: 1em;
     right: 50px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
