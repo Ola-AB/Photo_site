@@ -391,7 +391,6 @@ body {
 // 		border-radius: 8px;
 // 		box-shadow: 3px 3px 10px #2e2e2e2e;
 
-		
 // 	}
 // }
 
@@ -415,18 +414,68 @@ body {
 		-webkit-background-size: cover;
 		background-size: cover;
 		background-position: center;
-	  }
+	}
 
-	  .review__box-text {
+	.review__box-text {
 		margin-bottom: 0.1em;
 		margin-left: 1em;
-			font-size: 2.8rem;
-			color: $pure-white;	
+		font-size: 2.8rem;
+		color: $pure-white;
 	}
 	.swiper-slide {
 		flex-wrap: wrap;
 	}
-	
+}
+
+// CONTACT
+
+.contact {
+	position: relative;
+	background-color: $light-white;
+	overflow: hidden;
+
+	.white-block-left {
+		background-color: $dark;
+	}
+
+	&__form,
+	&__form-top {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__form-label {
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+	}
+
+	&__form-input {
+		@include contactForm;
+	}
+
+	&__form-textarea {
+		@include contactForm;
+		max-width: 100%;
+		min-width: 100%;
+		width: 100%;
+		min-height: 150px;
+	}
+
+	&__form-btn {
+		align-self: flex-end;
+		padding: 1em;
+		width: 100%;
+		max-width: 300px;
+		color: $pure-white;
+		border: none;
+		border-radius: 8px;
+		background-color: $main-color;
+		cursor: pointer;
+
+		&::before {
+			background-color: $secondary-light-color;
+		}
+	}
 }
 
 // MEDIA
