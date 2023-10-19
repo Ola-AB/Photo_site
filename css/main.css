@@ -360,6 +360,57 @@ body {
   background-color: #594b02;
 }
 
+.gallery {
+  position: relative;
+  background-image: linear-gradient(45deg, rgba(62, 47, 91, 0.68), rgba(255, 200, 87, 0.68)), url("/img/photographer_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.gallery .section-heading {
+  color: #fff;
+}
+.gallery__option {
+  margin: 1em 0;
+  box-shadow: 5px 5px 10px rgba(46, 46, 46, 0.7725490196);
+  overflow: hidden;
+}
+.gallery__option-img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+.gallery__option-img:hover {
+  transform: scale(1.1);
+}
+.gallery__option-info {
+  padding: 2em;
+  z-index: 10;
+}
+.gallery__option-heading {
+  margin-bottom: 0.5em;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.gallery__option-text {
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.gallery__option-btn {
+  margin-top: 1em;
+  padding: 0.8em;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(35, 9, 3, 0.8078431373);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.gallery__option-btn::before {
+  background-color: rgba(35, 9, 3, 0.5607843137);
+}
+
 @media (min-width: 576px) {
   .photobook__box {
     flex-direction: row;
@@ -380,6 +431,30 @@ body {
   .photobook__img {
     margin-bottom: 0;
     max-height: 300px;
+  }
+  .gallery__option {
+    display: flex;
+    margin: 2em 0;
+    width: 100%;
+  }
+  .gallery__option-img {
+    width: 50%;
+    height: auto;
+  }
+  .gallery__option-img--right {
+    order: 1;
+  }
+  .gallery__option-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .gallery__option-heading {
+    margin-bottom: 0.5em;
+    font-size: 3.6rem;
+  }
+  .gallery__option-btn {
+    padding: 1em;
   }
 }
 @media (min-width: 768px) {
@@ -417,7 +492,7 @@ body {
   .offers__card {
     margin: 1em;
     right: 50px;
-    width: 100%;
+    flex-basis: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -459,6 +534,17 @@ body {
   .hero-img hr {
     width: 60%;
     max-width: 900px;
+  }
+  .gallery {
+    background-image: linear-gradient(45deg, rgba(62, 47, 91, 0.68), rgba(255, 200, 87, 0.68)), url("../img/photographer_1920.jpg");
+  }
+  .gallery__option-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto;
+  }
+  .gallery__option-text {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1100px) {
