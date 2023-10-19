@@ -411,12 +411,34 @@ body {
   background-color: rgba(35, 9, 3, 0.5607843137);
 }
 
-.reviews__box {
+.swiper {
   position: relative;
-  margin: 2em;
-  padding: 2em;
-  border-radius: 8px;
-  box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.1803921569);
+  height: 500px;
+  width: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.swiper .parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.swiper .review__box-text {
+  margin-bottom: 0.1em;
+  margin-left: 1em;
+  font-size: 2.8rem;
+  color: #fff;
+}
+.swiper .swiper-slide {
+  flex-wrap: wrap;
 }
 
 @media (min-width: 576px) {

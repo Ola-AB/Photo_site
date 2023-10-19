@@ -383,14 +383,50 @@ body {
 
 // REVIEWS
 
-.reviews {
-	&__box {
-		position: relative;
-		margin: 2em;
-		padding: 2em;
-		border-radius: 8px;
-		box-shadow: 3px 3px 10px #2e2e2e2e;
+// .reviews {
+// 	&__box {
+// 		position: relative;
+// 		margin: 2em;
+// 		padding: 2em;
+// 		border-radius: 8px;
+// 		box-shadow: 3px 3px 10px #2e2e2e2e;
+
+		
+// 	}
+// }
+
+.swiper {
+	position: relative;
+	height: 500px;
+	width: 100%;
+
+	&-slide {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 60px;
 	}
+	.parallax-bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 130%;
+		height: 100%;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	  }
+
+	  .review__box-text {
+		margin-bottom: 0.1em;
+		margin-left: 1em;
+			font-size: 2.8rem;
+			color: $pure-white;	
+	}
+	.swiper-slide {
+		flex-wrap: wrap;
+	}
+	
 }
 
 // MEDIA
