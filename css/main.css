@@ -191,7 +191,7 @@ body {
 
 .black-bars-color,
 .black-bars-color::after,
-.black-bars-colotr::before {
+.black-bars-color::before {
   background-color: #2e2e2e;
 }
 
