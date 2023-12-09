@@ -22,7 +22,7 @@ Zastosowane technologie:
 
  
 Autor:
-Linkedin - https://www.linkedin.com/in/olga-burkiewicz-990058a4/
+Linkedin - [Olga Burkiewicz](https://www.linkedin.com/in/olga-burkiewicz-990058a4/)
 
 
 Przegląd:
