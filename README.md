@@ -16,7 +16,7 @@ Cechy:
 11.	Zastosowano dodatki wizualne typu wcięcia oraz animowane karty w sekcji offers.
 
 Zastosowane technologie:
-![Ikony (1)](https://github.com/Ola-AB/Photo_site/assets/142878084/a96353de-58a9-4d48-80b9-f0921302257a)
+![test](https://github.com/Ola-AB/Photo_site/assets/142878084/31cd5327-97b3-417b-8dc7-b1dd3d3eeac1)
 
  
 Autor:
