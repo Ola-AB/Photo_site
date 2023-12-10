@@ -34,6 +34,10 @@ SMARTFON:
 https://github.com/Ola-AB/Photo_site/assets/142878084/c5317f4c-362e-4590-93a5-9ca12179c61d
 
 
+DESKTOP:
+
+https://github.com/Ola-AB/Photo_site/assets/142878084/f2f9f6c6-3ed8-490e-953a-54f0a3a28624
+
 
 
 
