@@ -1,8 +1,8 @@
 # Photo_site
-O projekcie:
+**O projekcie:**
 Celem projektu było stworzenie responsywnej strony internetowej – dostosowanej do różnych urządzeń (smartfon, tablet, komputer stacjonarny). Zastosowano zasadę Mobile-first, do wielkości sekcji użyto padding’u oraz zastosowano jednostki rem i em. Przy tworzeniu pliku HTML wykorzystano metodę BEM.
 
-#Cechy:
+**Cechy:**
 1.	Strona została zbudowana na podstawie podanego przykładu.
 2.	Zastosowano media queries dla 3 różnych break point’ów.
 3.	Wykorzystano czcionkę Open sans oraz Dancing script, zaimportowane z Google Fonts.
@@ -21,14 +21,18 @@ Zastosowane technologie:
 ![test](https://github.com/Ola-AB/Photo_site/assets/142878084/3c433e16-3843-46ce-9100-25bf53865cc5)
 
  
-Autor:
+**Autor:**
 
 Linkedin - [Olga Burkiewicz](https://www.linkedin.com/in/olga-burkiewicz-990058a4/)
 
 
-Przegląd:
+**Przegląd:**
 
 SMARTFON:
+
+https://github.com/Ola-AB/Photo_site/assets/142878084/586a6ee9-ceb6-4efe-a6e1-6fc197330326
+
+
 
 
 
