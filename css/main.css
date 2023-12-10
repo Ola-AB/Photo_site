@@ -191,7 +191,7 @@ body {
 
 .black-bars-color,
 .black-bars-color::after,
-.black-bars-colotr::before {
+.black-bars-color::before {
   background-color: #2e2e2e;
 }
 
@@ -417,6 +417,14 @@ body {
   background-color: rgba(35, 9, 3, 0.5607843137);
 }
 
+.reviews__box {
+  position: relative;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(46, 46, 46, 0.1803921569);
+}
+
 .swiper {
   position: relative;
   height: 500px;
@@ -434,13 +442,14 @@ body {
   top: 0;
   width: 130%;
   height: 100%;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
 }
 .swiper .review__box-text {
   margin-bottom: 0.1em;
   margin-left: 1em;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #fff;
 }
 .swiper .swiper-slide {
@@ -694,8 +703,7 @@ body {
     background-image: linear-gradient(45deg, rgba(62, 47, 91, 0.68), rgba(255, 200, 87, 0.68)), url("../img/photographer_1920.jpg");
   }
   .gallery__option-img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     height: auto;
   }
   .gallery__option-text {
